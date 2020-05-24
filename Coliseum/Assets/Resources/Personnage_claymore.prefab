@@ -12126,6 +12126,7 @@ GameObject:
   - component: {fileID: 5355457548871068629}
   - component: {fileID: 9128829941678845851}
   - component: {fileID: 7967874616257241295}
+  - component: {fileID: 114054488846438898}
   m_Layer: 0
   m_Name: Personnage_claymore
   m_TagString: Player
@@ -12283,6 +12284,24 @@ MonoBehaviour:
   initDmg: 0
   initVit: 0
   anim: {fileID: 0}
+  damage: 0
+  enrage: 0
+--- !u!114 &114054488846438898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4497564698649447041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowLayerWeightsInspector: 1
+  ShowParameterInspector: 1
+  m_SynchronizeParameters: []
+  m_SynchronizeLayers: []
 --- !u!1 &4497564698649447043
 GameObject:
   m_ObjectHideFlags: 0

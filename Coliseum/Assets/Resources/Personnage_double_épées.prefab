@@ -6671,6 +6671,7 @@ GameObject:
   - component: {fileID: 1723203165090341334}
   - component: {fileID: 853394266280255506}
   - component: {fileID: 5915486598537275790}
+  - component: {fileID: 114383665945919308}
   m_Layer: 0
   m_Name: "Personnage_double_\xE9p\xE9es"
   m_TagString: Player
@@ -6807,9 +6808,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Hand: {fileID: 7880922471699549907}
   myWeapon: {fileID: 0}
-  anim: {fileID: 0}
   initDmg: 0
   initVit: 0
+  anim: {fileID: 0}
+  damage: 0
+  enrage: 0
 --- !u!114 &5915486598537275790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6827,7 +6830,23 @@ MonoBehaviour:
   shieldCooldown: 8
   shieldDuration: 4
   healthText: {fileID: 3795675609689930741}
-  bonus: 0
+  type: 
+--- !u!114 &114383665945919308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7385639196645089680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowLayerWeightsInspector: 1
+  ShowParameterInspector: 1
+  m_SynchronizeParameters: []
+  m_SynchronizeLayers: []
 --- !u!1 &7385639196645089682
 GameObject:
   m_ObjectHideFlags: 0

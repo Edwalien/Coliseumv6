@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="62e086f5-a331-49fb-a03d-aa1e0849053e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Personnage_claymore.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Personnage_claymore.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Personnage_double_épées.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Personnage_double_épées.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Personnage_lance.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Personnage_lance.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/anim_claymore.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/anim_claymore.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/anim_dblade.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/anim_dblade.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/anim_lance.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/anim_lance.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/anim_marteau.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/anim_marteau.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/46b7a0-0e60aec05d76ff145a.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/46b7a0-0e60aec05d76ff145a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/46b7a0-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/46b7a0-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/b5/b59196a826a17cc42bdc30e146fbf3d3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b5/b59196a826a17cc42bdc30e146fbf3d3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/b5/b59196a826a17cc42bdc30e146fbf3d3.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b5/b59196a826a17cc42bdc30e146fbf3d3.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/bc/bc1f91550ce042e46a204b9e248aa6a0" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/bc/bc1f91550ce042e46a204b9e248aa6a0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/bc/bc1f91550ce042e46a204b9e248aa6a0.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/bc/bc1f91550ce042e46a204b9e248aa6a0.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/fb/fb6004af4efa3614dacd3769a6cd55d6" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/fb/fb6004af4efa3614dacd3769a6cd55d6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/fb/fb6004af4efa3614dacd3769a6cd55d6.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/fb/fb6004af4efa3614dacd3769a6cd55d6.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weapon.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cN8ebsNltrFj5q7gh9xAGuEOkz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62e086f5-a331-49fb-a03d-aa1e0849053e" name="Default Changelist" comment="" />
+      <created>1590357800100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590357800100</updated>
+      <workItem from="1590357831664" duration="48000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

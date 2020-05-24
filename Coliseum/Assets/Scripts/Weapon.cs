@@ -31,28 +31,28 @@ namespace Coliseum
             {
                 case "marteau":
                     attackDamage = 16;
-                    attackRange = 3;
+                    attackRange = 3*2;
                     cooldown = 1.2f;
                     knockback = 12;
                     break;
 
                 case "lance":
                     attackDamage = 6;
-                    attackRange = 6;
+                    attackRange = 6*2;
                     cooldown = 1f;
                     knockback = 3;
                     break;
 
                 case "lame":
                     attackDamage = 3;
-                    attackRange = 1;
+                    attackRange = 1*3;
                     cooldown = 0.5f;
                     knockback = 2;
                     break;
 
                 case "claymore":
                     attackDamage = 10;
-                    attackRange = 4;
+                    attackRange = 4*2;
                     cooldown = 1;
                     knockback = 5;
                     break;
