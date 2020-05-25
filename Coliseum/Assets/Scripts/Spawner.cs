@@ -30,7 +30,7 @@ public class Spawner : MonoBehaviour
     {
         yield return new WaitForSeconds(startwait);
         while (true)
-        {
+        { 
             randbonus = Random.Range(0, 3);
            Vector3 spawnPosition = new Vector3(spawnValues.x, spawnValues.y, spawnValues.z);
            Instantiate(bonus[randbonus], spawnPosition, gameObject.transform.rotation);

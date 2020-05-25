@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Photon.Pun;
 using UnityEngine;
 
+
 namespace Coliseum
 {
 
@@ -66,10 +67,7 @@ namespace Coliseum
                 if (health < MinHealth)
                 {
                     health = MinHealth;
-                    PhotonNetwork.Destroy(GameManager.weapon);
-                    GameManager.RespawnPoint();
-                    PhotonNetwork.Instantiate(GameManager.weapon.name, GameManager.FreePos, Quaternion.identity);
-
+                    DieWithRespawn();
                 }
             }
             
@@ -116,11 +114,39 @@ namespace Coliseum
                 health -= dmg;
             }
         }
-        //
+        
 
         private void SetBoolBack()
         {
             shield = false;
         }
+        void DieWithRespawn()
+        {
+            if (photonView.IsMine)
+            {
+                StartCoroutine(Respawn());
+            }
+        }
+ 
+        IEnumerator Respawn()
+        {
+            float respawnTime = 1.0f;
+            while (respawnTime > 0.0f)
+            {
+                yield return new WaitForSeconds(1.0f);
+                respawnTime -= 1.0f;
+                transform.GetComponent<playerMove>().enabled = false;
+            }
+            transform.position = new Vector3(3,0,4);
+            transform.GetComponent<playerMove>().enabled = true;
+            photonView.RPC("Reborn",RpcTarget.AllBuffered);
+        }
+        
+        [PunRPC]
+        public void Reborn()
+        {
+            health = 100;
+        }
+        
     }
 }

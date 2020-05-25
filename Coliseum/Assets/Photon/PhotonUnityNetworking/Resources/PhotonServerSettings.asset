@@ -34,5 +34,7 @@ MonoBehaviour:
   - Damage
   - Knockback
   - SyncProfile
+  - Bonus_died
+  - Reborn
   DisableAutoOpenWizard: 1
   ShowSettings: 1

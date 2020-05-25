@@ -148,8 +148,8 @@ namespace Coliseum
                         }
                         
                         Debug.Log("Bonus died !");
-                        //hit.collider.transform.Translate(0,-100,0);
                         Destroy(hit.collider.gameObject);
+                        bonusHealth.health -= damage;
                     }
                     bonusHealth.health -= damage;
                 }
@@ -171,5 +171,6 @@ namespace Coliseum
         {
             pM.speed = initVit;
         }
+
     }
 }

@@ -5653,28 +5653,28 @@ MonoBehaviour:
   ShowParameterInspector: 1
   m_SynchronizeParameters:
   - Type: 4
-    SynchronizeType: 1
+    SynchronizeType: 2
     Name: isRunning
   - Type: 4
-    SynchronizeType: 1
+    SynchronizeType: 2
     Name: shield
   - Type: 4
-    SynchronizeType: 1
+    SynchronizeType: 2
     Name: isJumping
   - Type: 4
-    SynchronizeType: 1
+    SynchronizeType: 2
     Name: leftClick
   - Type: 4
-    SynchronizeType: 1
+    SynchronizeType: 2
     Name: roulade
   - Type: 3
-    SynchronizeType: 1
+    SynchronizeType: 2
     Name: combo
   - Type: 4
-    SynchronizeType: 1
+    SynchronizeType: 2
     Name: feint
   m_SynchronizeLayers:
-  - SynchronizeType: 0
+  - SynchronizeType: 1
     LayerIndex: 0
 --- !u!1 &4122113917770690890
 GameObject:
